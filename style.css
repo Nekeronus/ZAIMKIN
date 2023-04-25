@@ -216,5 +216,9 @@ header,footer {
 .rightblock {
     width: 350px;
 }
+.navigation {
+    flex-wrap:wrap ;
+}
+
 }
 
