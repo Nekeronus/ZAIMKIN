@@ -222,5 +222,8 @@ header,footer {
 .info h1 {
     font-size: 50px;
 }
+.navlinks {
+    padding-right:10px;
+}
 }
 
