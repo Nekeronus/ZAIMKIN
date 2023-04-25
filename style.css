@@ -211,6 +211,10 @@ font-weight: 500;
 } 
 header,footer {
     padding: 20px;
+
+}
+.rightblock {
+    width: 350px;
 }
 }
 
