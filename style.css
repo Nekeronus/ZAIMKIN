@@ -219,6 +219,8 @@ header,footer {
 .navigation {
     flex-wrap:wrap ;
 }
-
+.info h1 {
+    font-size: 50px;
+}
 }
 
