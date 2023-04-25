@@ -110,7 +110,7 @@ flex-grow: 1;}
 .audioblock {
     background-color: rgb(170, 233, 168);
     display: flex;
-
+    
 }
 .audiocontainer {
     display: flex;
@@ -143,4 +143,59 @@ flex-grow: 1;}
 #wave {
     width: 100%;
 }
+footer {
+    background-color: cornsilk;
+    padding-top: 50px;
 
+}
+.info h1 {
+color: black;
+font-size: 70px;
+font-weight: 500;
+
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black ;
+    padding:30px 0;
+    
+}
+.leftrow {
+    display: flex;
+    align-items: center;
+
+}
+.leftrow p {
+    color: darkgray;
+    font-size: 30px;
+    font-weight: 500;
+}
+.cursblock {
+    margin-left: 60px;
+}
+.cursblock p {
+    color: darkgray;
+    font-size: 15px;
+
+}
+@media(max-width:992px) 
+{
+        .audioblock{
+flex-direction: column;
+    }
+   
+}
+@media (max-width:678px)
+{
+.join {
+    display: none;
+}    
+.audioblock img {
+    display: none;
+}
+.leftblock,.rightblock {
+    width: 100%;
+}
+}
