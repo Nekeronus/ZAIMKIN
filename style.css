@@ -182,12 +182,13 @@ font-weight: 500;
 }
 @media(max-width:992px) 
 {
-        .audioblock{
-flex-direction: column;
-    }
-   
+    .audioblock img{display: none;
+   } 
+   #wave{padding: 30px 0;
+    width: 90%;
+          }
 }
-@media (max-width:678px)
+@media (max-width:778px)
 {
 .join {
     display: none;
@@ -195,7 +196,18 @@ flex-direction: column;
 .audioblock img {
     display: none;
 }
-.leftblock,.rightblock {
-    width: 100%;
+
+    .infoblock{
+        flex-direction: column;
+        align-items: center;
+                }
+  .audioblock      {
+    margin-top: 30px;
+    margin-bottom: 30px ;
+        }     
+.bigtext {
+    font-size: 60px;
+} 
+
 }
-}
+
